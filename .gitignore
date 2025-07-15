@@ -4,8 +4,9 @@
 bin/
 obj/
 publish/
-!**/src/**/bin/      # <-- permite binarios dentro del código fuente si expresamente los quieres
-!**/src/**/obj/
+**/bin/      # <-- permite binarios dentro del código fuente si expresamente los quieres
+**/obj/
+publish/
 
 # User secrets & local settings
 **/appsettings.Development.json
